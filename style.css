@@ -1,0 +1,30 @@
+img {
+	object-fit: cover;
+}
+
+a {
+	text-decoration: none !important;
+	color: white !important;
+}
+
+input {
+	background: transparent !important;
+}
+
+input::placeholder {
+	color: rgb(184, 184, 184) !important;
+}
+
+svg {
+	color: white;
+}
+
+#repoRef a {
+	padding: 0.7rem 1rem;
+	font-size: small;
+}
+
+#repoRef a.active {
+	border-bottom: 2px solid rgb(218, 131, 32);
+}
+
